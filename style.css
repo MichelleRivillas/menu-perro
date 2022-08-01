@@ -1,0 +1,134 @@
+@importar  URL ( "https://fonts.googleapis.com/css?family=Lato&display=swap" );
+
+* {
+    tamaño de caja : cuadro de borde;
+  }
+  
+  cuerpo {
+    familia de fuentes :  "Lato" , sans-serif;
+    color de fondo :  # 333 ;
+    color :  # 222 ;
+    desbordamiento-x : oculto;
+    margen :  0 ;
+  }
+  
+  . contenedor {
+    color de fondo :  #fafafa ;
+    transformar-origen : arriba a la izquierda;
+    transición : transforma 0,5 s lineal;
+    ancho :  100 vw ;
+    min-altura :  100 vh ;
+    relleno :  50 px ;
+  }
+  
+  . contenedor _ Mostrar navegación {
+    transformar :  rotar ( -20 grados );
+  }
+  
+  . círculo-contenedor {
+    posición : fijo;
+    arriba :  -100 px ;
+    izquierda :  -100 px ;
+  }
+  
+  . círculo {
+    color de fondo :  # ff7979 ;
+    altura :  200 píxeles ;
+    ancho :  200 píxeles ;
+    borde-radio :  50 % ;
+    posición : relativa;
+    transición : transforma 0,5 s lineal;
+  }
+  
+. ccontenedor _ mostrar-navegación . círculo {
+  transformar :  rotar ( -70 grados );
+}
+
+  . botón círculo  {
+    cursor : puntero;
+    posición : absoluta;
+    superior :  50 % ;
+    izquierda :  50 % ;
+    altura :  100 píxeles ;
+    fondo : transparente;
+    borde :  0 ;
+    tamaño de fuente :  26 px ;
+    color :  #fff ; _
+  }
+  
+  . botón de círculo  : enfoque {
+    esquema : ninguno;
+  }
+  
+  . botón círculo  # abrir {
+    izquierda :  60 % ;
+  }
+  
+  . botón círculo  # cerrar {
+    arriba :  60 % ;
+    transformar :  rotar ( 90 grados );
+    transformar-origen : arriba a la izquierda;
+  }
+  
+. contenedor _ contenedor _ mostrar-nav  +  nav  li {
+  transformar :  traducirX ( 0 );
+  retardo de transición :  0,3 s ;
+}
+
+  navegación {
+  posición : fijo;
+  abajo :  40 px ;
+  izquierda :  0 ;
+  índice z :  100 ;
+  }
+
+navegación  ul {
+  tipo-estilo-lista : ninguno;
+  relleno-izquierda :  30 px ;
+}
+
+nav  ul  li {
+  transformación de texto : mayúsculas;
+  color :  #fff ; _
+  margen :  40 px  0 ;
+  transformar :  traducirX ( -100 % );
+  transición : transformar 0.4 s facilidad de entrada;
+}
+
+nav  ul  li  yo {
+  tamaño de fuente :  20 px ;
+  margen derecho :  10 px ;
+}
+
+navegación  ul  li  +  li {
+  margen izquierdo :  15 px ;
+  transformar :  traducirX ( -150 % );
+}
+
+nav  ul  li  +  li  +  li {
+  margen izquierdo :  30 px ;
+  transformar :  traducirX ( -200 % );
+}
+
+. imagen de contenido  {
+    ancho máximo :  1000 % ;
+  }
+
+  . contenido {
+    ancho máximo :  1000 px ;
+    margen :  50 px automático;
+  }
+
+  . contenido  h1 {
+    margen :  0 ;
+  }
+
+  . contenido  pequeño {
+    color :  # 555 ;
+    estilo de fuente : cursiva;
+  }
+
+  . contenido  p {
+    color :  # 333 ;
+    altura de línea :  1.5 ;
+  }
